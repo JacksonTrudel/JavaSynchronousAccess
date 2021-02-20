@@ -1,0 +1,920 @@
+    Deposit Threads  			  Withdrawal Threads		       Balance
+-----------------------  		----------------------  	  -----------------
+ Thread D1 deposits $ 83						  (+) Balance is $83
+ Thread D2 deposits $217						  (+) Balance is $300
+				        Thread W1 withdraws $ 44	  (-) Balance is $256
+				        Thread W2 withdraws $ 34	  (-) Balance is $222
+				        Thread W3 withdraws $ 40	  (-) Balance is $182
+ Thread D3 deposits $211						  (+) Balance is $393
+ Thread D4 deposits $ 39						  (+) Balance is $432
+				        Thread W4 withdraws $ 17	  (-) Balance is $415
+				        Thread W5 withdraws $ 31	  (-) Balance is $384
+				        Thread W6 withdraws $ 29	  (-) Balance is $355
+ Thread D5 deposits $243						  (+) Balance is $598
+				        Thread W7 withdraws $ 25	  (-) Balance is $573
+				        Thread W8 withdraws $ 23	  (-) Balance is $550
+				        Thread W9 withdraws $ 19	  (-) Balance is $531
+				        Thread W2 withdraws $ 28	  (-) Balance is $503
+				        Thread W1 withdraws $ 23	  (-) Balance is $480
+				        Thread W7 withdraws $ 19	  (-) Balance is $461
+				        Thread W3 withdraws $ 20	  (-) Balance is $441
+				        Thread W4 withdraws $ 43	  (-) Balance is $398
+				        Thread W2 withdraws $ 32	  (-) Balance is $366
+				        Thread W9 withdraws $  2	  (-) Balance is $364
+				        Thread W1 withdraws $ 50	  (-) Balance is $314
+				        Thread W6 withdraws $ 16	  (-) Balance is $298
+				        Thread W8 withdraws $ 31	  (-) Balance is $267
+				        Thread W7 withdraws $ 14	  (-) Balance is $253
+				        Thread W5 withdraws $ 37	  (-) Balance is $216
+				        Thread W3 withdraws $ 13	  (-) Balance is $203
+				        Thread W9 withdraws $ 26	  (-) Balance is $177
+				        Thread W4 withdraws $ 38	  (-) Balance is $139
+				        Thread W2 withdraws $ 20	  (-) Balance is $119
+				        Thread W7 withdraws $ 47	  (-) Balance is $72
+				        Thread W5 withdraws $ 20	  (-) Balance is $52
+				        Thread W8 withdraws $ 20	  (-) Balance is $32
+				        Thread W6 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 13	  (-) Balance is $19
+				        Thread W1 withdraws $  1	  (-) Balance is $18
+				        Thread W3 withdraws $ 14	  (-) Balance is $4
+				        Thread W4 withdraws $ 20	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $  7	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 45	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  7	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $  7	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 26	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 43	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $116						  (+) Balance is $120
+				        Thread W1 withdraws $ 41	  (-) Balance is $79
+				        Thread W3 withdraws $ 13	  (-) Balance is $66
+				        Thread W4 withdraws $ 28	  (-) Balance is $38
+				        Thread W5 withdraws $ 37	  (-) Balance is $1
+				        Thread W9 withdraws $  9	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 43	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $  1	  (-) Balance is $0
+				        Thread W2 withdraws $ 35	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 28	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D3 deposits $131						  (+) Balance is $131
+				        Thread W1 withdraws $ 38	  (-) Balance is $93
+ Thread D5 deposits $231						  (+) Balance is $324
+				        Thread W3 withdraws $ 30	  (-) Balance is $294
+				        Thread W4 withdraws $ 22	  (-) Balance is $272
+				        Thread W2 withdraws $ 39	  (-) Balance is $233
+				        Thread W8 withdraws $ 24	  (-) Balance is $209
+				        Thread W9 withdraws $  8	  (-) Balance is $201
+				        Thread W6 withdraws $ 35	  (-) Balance is $166
+				        Thread W5 withdraws $ 39	  (-) Balance is $127
+				        Thread W4 withdraws $ 40	  (-) Balance is $87
+				        Thread W1 withdraws $ 45	  (-) Balance is $42
+				        Thread W7 withdraws $  3	  (-) Balance is $39
+				        Thread W3 withdraws $ 35	  (-) Balance is $4
+				        Thread W8 withdraws $  4	  (-) Balance is $0
+				        Thread W1 withdraws $ 28	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $  1						  (+) Balance is $1
+				        Thread W5 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 28	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $  2	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 21	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $166						  (+) Balance is $167
+				        Thread W2 withdraws $ 40	  (-) Balance is $127
+				        Thread W4 withdraws $  2	  (-) Balance is $125
+				        Thread W8 withdraws $ 31	  (-) Balance is $94
+				        Thread W1 withdraws $ 49	  (-) Balance is $45
+				        Thread W3 withdraws $ 17	  (-) Balance is $28
+				        Thread W2 withdraws $ 17	  (-) Balance is $11
+				        Thread W7 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 16	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 12	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $  9	  (-) Balance is $2
+				        Thread W1 withdraws $ 20	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 45	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 49	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  4	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 21	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $121						  (+) Balance is $123
+ Thread D5 deposits $ 53						  (+) Balance is $176
+				        Thread W1 withdraws $ 12	  (-) Balance is $164
+ Thread D2 deposits $ 19						  (+) Balance is $183
+ Thread D3 deposits $ 42						  (+) Balance is $225
+				        Thread W3 withdraws $  9	  (-) Balance is $216
+				        Thread W7 withdraws $ 41	  (-) Balance is $175
+				        Thread W4 withdraws $ 15	  (-) Balance is $160
+				        Thread W2 withdraws $ 23	  (-) Balance is $137
+				        Thread W8 withdraws $  7	  (-) Balance is $130
+				        Thread W9 withdraws $ 15	  (-) Balance is $115
+				        Thread W6 withdraws $ 14	  (-) Balance is $101
+				        Thread W5 withdraws $ 33	  (-) Balance is $68
+				        Thread W1 withdraws $ 26	  (-) Balance is $42
+				        Thread W7 withdraws $ 10	  (-) Balance is $32
+				        Thread W9 withdraws $ 11	  (-) Balance is $21
+				        Thread W1 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 35	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $  7	  (-) Balance is $14
+				        Thread W7 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 45	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 11	  (-) Balance is $3
+				        Thread W9 withdraws $ 43	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $107						  (+) Balance is $110
+				        Thread W8 withdraws $ 10	  (-) Balance is $100
+				        Thread W5 withdraws $ 11	  (-) Balance is $89
+				        Thread W1 withdraws $ 29	  (-) Balance is $60
+				        Thread W9 withdraws $ 21	  (-) Balance is $39
+				        Thread W2 withdraws $ 31	  (-) Balance is $8
+				        Thread W3 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $  8	  (-) Balance is $0
+ Thread D2 deposits $ 13						  (+) Balance is $13
+				        Thread W1 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $ 42						  (+) Balance is $55
+ Thread D3 deposits $157						  (+) Balance is $212
+				        Thread W2 withdraws $ 13	  (-) Balance is $199
+				        Thread W9 withdraws $ 33	  (-) Balance is $166
+				        Thread W7 withdraws $ 24	  (-) Balance is $142
+				        Thread W5 withdraws $ 22	  (-) Balance is $120
+				        Thread W4 withdraws $ 17	  (-) Balance is $103
+				        Thread W6 withdraws $ 12	  (-) Balance is $91
+				        Thread W3 withdraws $ 34	  (-) Balance is $57
+				        Thread W8 withdraws $ 28	  (-) Balance is $29
+				        Thread W5 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 21	  (-) Balance is $8
+				        Thread W4 withdraws $ 26	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $ 29						  (+) Balance is $37
+				        Thread W2 withdraws $  4	  (-) Balance is $33
+				        Thread W9 withdraws $ 24	  (-) Balance is $9
+				        Thread W3 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 20	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $ 80						  (+) Balance is $89
+ Thread D1 deposits $ 62						  (+) Balance is $151
+				        Thread W9 withdraws $ 41	  (-) Balance is $110
+				        Thread W5 withdraws $ 15	  (-) Balance is $95
+				        Thread W3 withdraws $ 47	  (-) Balance is $48
+				        Thread W8 withdraws $ 27	  (-) Balance is $21
+				        Thread W4 withdraws $ 45	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 34	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 13	  (-) Balance is $8
+				        Thread W1 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $ 70						  (+) Balance is $78
+				        Thread W6 withdraws $ 18	  (-) Balance is $60
+				        Thread W5 withdraws $ 24	  (-) Balance is $36
+				        Thread W7 withdraws $  1	  (-) Balance is $35
+				        Thread W8 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 11	  (-) Balance is $24
+				        Thread W3 withdraws $ 23	  (-) Balance is $1
+				        Thread W9 withdraws $ 28	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $123						  (+) Balance is $124
+				        Thread W4 withdraws $ 29	  (-) Balance is $95
+				        Thread W6 withdraws $ 36	  (-) Balance is $59
+				        Thread W7 withdraws $ 49	  (-) Balance is $10
+				        Thread W5 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $  2	  (-) Balance is $8
+				        Thread W1 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $  4	  (-) Balance is $4
+				        Thread W9 withdraws $ 24	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 45	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D3 deposits $ 83						  (+) Balance is $87
+				        Thread W5 withdraws $  9	  (-) Balance is $78
+				        Thread W1 withdraws $ 39	  (-) Balance is $39
+				        Thread W7 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 43	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 15	  (-) Balance is $24
+				        Thread W4 withdraws $ 18	  (-) Balance is $6
+				        Thread W8 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 24	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 20	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $ 49						  (+) Balance is $55
+				        Thread W5 withdraws $ 23	  (-) Balance is $32
+				        Thread W4 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 49	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $  9	  (-) Balance is $23
+				        Thread W7 withdraws $ 20	  (-) Balance is $3
+				        Thread W9 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 10	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 31	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 36	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 35	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $157						  (+) Balance is $160
+ Thread D5 deposits $199						  (+) Balance is $359
+				        Thread W5 withdraws $ 29	  (-) Balance is $330
+				        Thread W2 withdraws $ 35	  (-) Balance is $295
+				        Thread W3 withdraws $ 41	  (-) Balance is $254
+				        Thread W9 withdraws $ 31	  (-) Balance is $223
+				        Thread W8 withdraws $  2	  (-) Balance is $221
+				        Thread W6 withdraws $ 28	  (-) Balance is $193
+ Thread D3 deposits $175						  (+) Balance is $368
+				        Thread W7 withdraws $  3	  (-) Balance is $365
+				        Thread W4 withdraws $ 12	  (-) Balance is $353
+				        Thread W2 withdraws $  5	  (-) Balance is $348
+				        Thread W1 withdraws $ 50	  (-) Balance is $298
+				        Thread W5 withdraws $ 25	  (-) Balance is $273
+				        Thread W3 withdraws $ 18	  (-) Balance is $255
+ Thread D2 deposits $217						  (+) Balance is $472
+				        Thread W6 withdraws $  1	  (-) Balance is $471
+				        Thread W2 withdraws $ 27	  (-) Balance is $444
+				        Thread W8 withdraws $ 11	  (-) Balance is $433
+				        Thread W9 withdraws $ 26	  (-) Balance is $407
+				        Thread W4 withdraws $ 21	  (-) Balance is $386
+				        Thread W7 withdraws $ 28	  (-) Balance is $358
+				        Thread W5 withdraws $  2	  (-) Balance is $356
+				        Thread W2 withdraws $  2	  (-) Balance is $354
+				        Thread W1 withdraws $  1	  (-) Balance is $353
+				        Thread W9 withdraws $ 48	  (-) Balance is $305
+				        Thread W3 withdraws $ 10	  (-) Balance is $295
+				        Thread W4 withdraws $ 24	  (-) Balance is $271
+				        Thread W6 withdraws $ 31	  (-) Balance is $240
+				        Thread W7 withdraws $ 37	  (-) Balance is $203
+				        Thread W1 withdraws $ 40	  (-) Balance is $163
+				        Thread W8 withdraws $ 49	  (-) Balance is $114
+				        Thread W5 withdraws $ 20	  (-) Balance is $94
+				        Thread W3 withdraws $ 29	  (-) Balance is $65
+				        Thread W9 withdraws $ 39	  (-) Balance is $26
+				        Thread W6 withdraws $ 10	  (-) Balance is $16
+				        Thread W2 withdraws $ 12	  (-) Balance is $4
+				        Thread W7 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $  8	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 27	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $143						  (+) Balance is $147
+				        Thread W2 withdraws $ 36	  (-) Balance is $111
+				        Thread W6 withdraws $ 33	  (-) Balance is $78
+ Thread D5 deposits $219						  (+) Balance is $297
+				        Thread W1 withdraws $ 44	  (-) Balance is $253
+				        Thread W7 withdraws $ 48	  (-) Balance is $205
+				        Thread W4 withdraws $  4	  (-) Balance is $201
+				        Thread W6 withdraws $  4	  (-) Balance is $197
+				        Thread W5 withdraws $  5	  (-) Balance is $192
+				        Thread W8 withdraws $ 37	  (-) Balance is $155
+				        Thread W3 withdraws $  6	  (-) Balance is $149
+				        Thread W2 withdraws $ 23	  (-) Balance is $126
+				        Thread W9 withdraws $ 21	  (-) Balance is $105
+				        Thread W1 withdraws $ 22	  (-) Balance is $83
+				        Thread W6 withdraws $ 27	  (-) Balance is $56
+				        Thread W4 withdraws $  4	  (-) Balance is $52
+				        Thread W3 withdraws $ 25	  (-) Balance is $27
+				        Thread W9 withdraws $  9	  (-) Balance is $18
+				        Thread W5 withdraws $ 16	  (-) Balance is $2
+				        Thread W7 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 20	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 35	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $  9	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  8	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 12	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $120						  (+) Balance is $122
+ Thread D2 deposits $232						  (+) Balance is $354
+				        Thread W7 withdraws $ 21	  (-) Balance is $333
+				        Thread W1 withdraws $ 38	  (-) Balance is $295
+				        Thread W6 withdraws $ 48	  (-) Balance is $247
+				        Thread W8 withdraws $ 43	  (-) Balance is $204
+ Thread D3 deposits $141						  (+) Balance is $345
+				        Thread W9 withdraws $  6	  (-) Balance is $339
+				        Thread W2 withdraws $ 43	  (-) Balance is $296
+				        Thread W3 withdraws $ 29	  (-) Balance is $267
+				        Thread W5 withdraws $  9	  (-) Balance is $258
+				        Thread W4 withdraws $ 18	  (-) Balance is $240
+				        Thread W6 withdraws $ 47	  (-) Balance is $193
+				        Thread W2 withdraws $ 15	  (-) Balance is $178
+				        Thread W8 withdraws $ 26	  (-) Balance is $152
+				        Thread W1 withdraws $ 35	  (-) Balance is $117
+				        Thread W7 withdraws $ 36	  (-) Balance is $81
+				        Thread W4 withdraws $ 32	  (-) Balance is $49
+				        Thread W9 withdraws $ 13	  (-) Balance is $36
+				        Thread W5 withdraws $  5	  (-) Balance is $31
+				        Thread W3 withdraws $  2	  (-) Balance is $29
+				        Thread W6 withdraws $ 18	  (-) Balance is $11
+				        Thread W7 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $  7	  (-) Balance is $4
+				        Thread W9 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 28	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 27	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $  3	  (-) Balance is $1
+				        Thread W8 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $234						  (+) Balance is $235
+ Thread D5 deposits $ 81						  (+) Balance is $316
+				        Thread W1 withdraws $ 49	  (-) Balance is $267
+				        Thread W6 withdraws $ 18	  (-) Balance is $249
+				        Thread W9 withdraws $ 36	  (-) Balance is $213
+				        Thread W8 withdraws $  9	  (-) Balance is $204
+				        Thread W3 withdraws $ 21	  (-) Balance is $183
+				        Thread W4 withdraws $ 26	  (-) Balance is $157
+				        Thread W7 withdraws $ 10	  (-) Balance is $147
+ Thread D1 deposits $242						  (+) Balance is $389
+				        Thread W2 withdraws $ 43	  (-) Balance is $346
+				        Thread W9 withdraws $ 39	  (-) Balance is $307
+				        Thread W5 withdraws $ 41	  (-) Balance is $266
+				        Thread W1 withdraws $ 31	  (-) Balance is $235
+				        Thread W4 withdraws $ 47	  (-) Balance is $188
+				        Thread W6 withdraws $  1	  (-) Balance is $187
+				        Thread W7 withdraws $ 41	  (-) Balance is $146
+				        Thread W8 withdraws $  6	  (-) Balance is $140
+				        Thread W5 withdraws $  6	  (-) Balance is $134
+				        Thread W3 withdraws $ 39	  (-) Balance is $95
+				        Thread W1 withdraws $ 42	  (-) Balance is $53
+				        Thread W2 withdraws $  6	  (-) Balance is $47
+				        Thread W4 withdraws $  3	  (-) Balance is $44
+				        Thread W6 withdraws $ 17	  (-) Balance is $27
+				        Thread W9 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $104						  (+) Balance is $131
+				        Thread W7 withdraws $  3	  (-) Balance is $128
+				        Thread W8 withdraws $ 49	  (-) Balance is $79
+ Thread D3 deposits $192						  (+) Balance is $271
+				        Thread W4 withdraws $ 30	  (-) Balance is $241
+				        Thread W3 withdraws $ 26	  (-) Balance is $215
+				        Thread W6 withdraws $ 36	  (-) Balance is $179
+				        Thread W1 withdraws $  1	  (-) Balance is $178
+				        Thread W5 withdraws $ 30	  (-) Balance is $148
+				        Thread W9 withdraws $ 18	  (-) Balance is $130
+				        Thread W6 withdraws $ 41	  (-) Balance is $89
+				        Thread W4 withdraws $ 49	  (-) Balance is $40
+				        Thread W2 withdraws $  5	  (-) Balance is $35
+				        Thread W7 withdraws $  1	  (-) Balance is $34
+				        Thread W5 withdraws $  9	  (-) Balance is $25
+				        Thread W8 withdraws $  5	  (-) Balance is $20
+				        Thread W2 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $  2	  (-) Balance is $18
+				        Thread W3 withdraws $  9	  (-) Balance is $9
+				        Thread W1 withdraws $  2	  (-) Balance is $7
+				        Thread W5 withdraws $  6	  (-) Balance is $1
+				        Thread W6 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $  1	  (-) Balance is $0
+				        Thread W3 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 10	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 14	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $  8	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $123						  (+) Balance is $123
+ Thread D1 deposits $241						  (+) Balance is $364
+				        Thread W1 withdraws $  7	  (-) Balance is $357
+				        Thread W6 withdraws $ 50	  (-) Balance is $307
+				        Thread W9 withdraws $ 17	  (-) Balance is $290
+				        Thread W2 withdraws $ 37	  (-) Balance is $253
+				        Thread W4 withdraws $  3	  (-) Balance is $250
+				        Thread W5 withdraws $ 34	  (-) Balance is $216
+				        Thread W1 withdraws $ 28	  (-) Balance is $188
+				        Thread W6 withdraws $ 10	  (-) Balance is $178
+				        Thread W7 withdraws $ 19	  (-) Balance is $159
+				        Thread W9 withdraws $ 18	  (-) Balance is $141
+				        Thread W3 withdraws $ 14	  (-) Balance is $127
+				        Thread W8 withdraws $ 43	  (-) Balance is $84
+				        Thread W2 withdraws $  1	  (-) Balance is $83
+ Thread D2 deposits $103						  (+) Balance is $186
+				        Thread W6 withdraws $ 35	  (-) Balance is $151
+				        Thread W9 withdraws $  5	  (-) Balance is $146
+ Thread D5 deposits $233						  (+) Balance is $379
+				        Thread W1 withdraws $ 45	  (-) Balance is $334
+				        Thread W3 withdraws $  4	  (-) Balance is $330
+				        Thread W4 withdraws $ 15	  (-) Balance is $315
+				        Thread W8 withdraws $ 45	  (-) Balance is $270
+				        Thread W5 withdraws $ 39	  (-) Balance is $231
+				        Thread W4 withdraws $ 42	  (-) Balance is $189
+				        Thread W2 withdraws $ 17	  (-) Balance is $172
+				        Thread W7 withdraws $ 11	  (-) Balance is $161
+				        Thread W3 withdraws $ 22	  (-) Balance is $139
+				        Thread W1 withdraws $ 41	  (-) Balance is $98
+				        Thread W8 withdraws $ 24	  (-) Balance is $74
+				        Thread W9 withdraws $ 16	  (-) Balance is $58
+				        Thread W4 withdraws $ 30	  (-) Balance is $28
+				        Thread W6 withdraws $ 28	  (-) Balance is $0
+				        Thread W7 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  8	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D3 deposits $ 80						  (+) Balance is $80
+ Thread D1 deposits $239						  (+) Balance is $319
+				        Thread W3 withdraws $ 28	  (-) Balance is $291
+ Thread D4 deposits $  5						  (+) Balance is $296
+				        Thread W5 withdraws $ 47	  (-) Balance is $249
+				        Thread W7 withdraws $ 12	  (-) Balance is $237
+				        Thread W2 withdraws $ 41	  (-) Balance is $196
+				        Thread W8 withdraws $ 39	  (-) Balance is $157
+				        Thread W6 withdraws $ 13	  (-) Balance is $144
+				        Thread W4 withdraws $ 33	  (-) Balance is $111
+				        Thread W1 withdraws $ 38	  (-) Balance is $73
+				        Thread W9 withdraws $ 12	  (-) Balance is $61
+				        Thread W5 withdraws $ 26	  (-) Balance is $35
+				        Thread W8 withdraws $ 24	  (-) Balance is $11
+				        Thread W2 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  5	  (-) Balance is $6
+				        Thread W4 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $  7	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 26	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $151						  (+) Balance is $157
+				        Thread W3 withdraws $ 12	  (-) Balance is $145
+				        Thread W7 withdraws $ 42	  (-) Balance is $103
+				        Thread W1 withdraws $ 42	  (-) Balance is $61
+				        Thread W9 withdraws $  3	  (-) Balance is $58
+				        Thread W5 withdraws $  4	  (-) Balance is $54
+				        Thread W4 withdraws $  5	  (-) Balance is $49
+				        Thread W8 withdraws $ 27	  (-) Balance is $22
+				        Thread W2 withdraws $ 14	  (-) Balance is $8
+				        Thread W3 withdraws $  7	  (-) Balance is $1
+ Thread D5 deposits $ 29						  (+) Balance is $30
+				        Thread W6 withdraws $  7	  (-) Balance is $23
+				        Thread W1 withdraws $ 22	  (-) Balance is $1
+				        Thread W9 withdraws $ 49	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $  9	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 21	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $  5	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 24	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D3 deposits $219						  (+) Balance is $220
+				        Thread W2 withdraws $ 48	  (-) Balance is $172
+ Thread D4 deposits $120						  (+) Balance is $292
+				        Thread W9 withdraws $ 45	  (-) Balance is $247
+				        Thread W4 withdraws $ 34	  (-) Balance is $213
+				        Thread W6 withdraws $ 12	  (-) Balance is $201
+				        Thread W7 withdraws $ 48	  (-) Balance is $153
+				        Thread W8 withdraws $ 32	  (-) Balance is $121
+				        Thread W9 withdraws $ 37	  (-) Balance is $84
+				        Thread W5 withdraws $ 15	  (-) Balance is $69
+				        Thread W2 withdraws $ 45	  (-) Balance is $24
+				        Thread W4 withdraws $ 14	  (-) Balance is $10
+				        Thread W3 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $  3	  (-) Balance is $7
+ Thread D1 deposits $149						  (+) Balance is $156
+				        Thread W8 withdraws $ 27	  (-) Balance is $129
+				        Thread W6 withdraws $ 29	  (-) Balance is $100
+				        Thread W9 withdraws $ 48	  (-) Balance is $52
+				        Thread W2 withdraws $ 31	  (-) Balance is $21
+				        Thread W7 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 15	  (-) Balance is $6
+				        Thread W5 withdraws $  7	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $218						  (+) Balance is $224
+				        Thread W3 withdraws $ 10	  (-) Balance is $214
+				        Thread W4 withdraws $ 25	  (-) Balance is $189
+				        Thread W8 withdraws $ 20	  (-) Balance is $169
+				        Thread W9 withdraws $ 35	  (-) Balance is $134
+				        Thread W1 withdraws $  7	  (-) Balance is $127
+				        Thread W2 withdraws $ 21	  (-) Balance is $106
+				        Thread W6 withdraws $ 36	  (-) Balance is $70
+				        Thread W4 withdraws $ 36	  (-) Balance is $34
+				        Thread W7 withdraws $  3	  (-) Balance is $31
+ Thread D5 deposits $246						  (+) Balance is $277
+				        Thread W8 withdraws $ 29	  (-) Balance is $248
+				        Thread W5 withdraws $ 36	  (-) Balance is $212
+				        Thread W1 withdraws $ 36	  (-) Balance is $176
+				        Thread W4 withdraws $ 42	  (-) Balance is $134
+				        Thread W6 withdraws $  9	  (-) Balance is $125
+				        Thread W3 withdraws $ 17	  (-) Balance is $108
+				        Thread W9 withdraws $ 43	  (-) Balance is $65
+				        Thread W8 withdraws $ 13	  (-) Balance is $52
+				        Thread W5 withdraws $ 38	  (-) Balance is $14
+				        Thread W2 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 30	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  5	  (-) Balance is $9
+ Thread D3 deposits $246						  (+) Balance is $255
+				        Thread W6 withdraws $ 12	  (-) Balance is $243
+				        Thread W1 withdraws $ 14	  (-) Balance is $229
+				        Thread W5 withdraws $ 20	  (-) Balance is $209
+				        Thread W4 withdraws $ 15	  (-) Balance is $194
+				        Thread W9 withdraws $ 13	  (-) Balance is $181
+				        Thread W3 withdraws $  2	  (-) Balance is $179
+				        Thread W6 withdraws $ 22	  (-) Balance is $157
+				        Thread W8 withdraws $  9	  (-) Balance is $148
+				        Thread W7 withdraws $ 49	  (-) Balance is $99
+				        Thread W4 withdraws $ 49	  (-) Balance is $50
+				        Thread W2 withdraws $ 12	  (-) Balance is $38
+				        Thread W5 withdraws $ 30	  (-) Balance is $8
+				        Thread W3 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 24	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 12	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $  7	  (-) Balance is $1
+				        Thread W4 withdraws $  7	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 24	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $184						  (+) Balance is $185
+ Thread D4 deposits $ 91						  (+) Balance is $276
+				        Thread W2 withdraws $ 23	  (-) Balance is $253
+				        Thread W8 withdraws $ 48	  (-) Balance is $205
+				        Thread W7 withdraws $ 29	  (-) Balance is $176
+				        Thread W6 withdraws $ 22	  (-) Balance is $154
+				        Thread W4 withdraws $ 41	  (-) Balance is $113
+ Thread D1 deposits $ 23						  (+) Balance is $136
+ Thread D2 deposits $123						  (+) Balance is $259
+ Thread D3 deposits $130						  (+) Balance is $389
+				        Thread W9 withdraws $ 33	  (-) Balance is $356
+				        Thread W1 withdraws $ 21	  (-) Balance is $335
+				        Thread W3 withdraws $ 38	  (-) Balance is $297
+				        Thread W5 withdraws $ 14	  (-) Balance is $283
+				        Thread W8 withdraws $ 17	  (-) Balance is $266
+				        Thread W7 withdraws $ 22	  (-) Balance is $244
+				        Thread W2 withdraws $ 39	  (-) Balance is $205
+				        Thread W6 withdraws $ 40	  (-) Balance is $165
+				        Thread W7 withdraws $  1	  (-) Balance is $164
+				        Thread W1 withdraws $ 12	  (-) Balance is $152
+				        Thread W4 withdraws $ 19	  (-) Balance is $133
+				        Thread W9 withdraws $ 10	  (-) Balance is $123
+				        Thread W3 withdraws $  9	  (-) Balance is $114
+				        Thread W8 withdraws $ 18	  (-) Balance is $96
+				        Thread W2 withdraws $  9	  (-) Balance is $87
+				        Thread W6 withdraws $ 50	  (-) Balance is $37
+				        Thread W5 withdraws $ 14	  (-) Balance is $23
+				        Thread W3 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $  3	  (-) Balance is $20
+				        Thread W1 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $  3	  (-) Balance is $17
+				        Thread W9 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 34	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $  9	  (-) Balance is $8
+				        Thread W2 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $114						  (+) Balance is $122
+				        Thread W4 withdraws $ 36	  (-) Balance is $86
+				        Thread W2 withdraws $ 34	  (-) Balance is $52
+				        Thread W4 withdraws $ 30	  (-) Balance is $22
+				        Thread W5 withdraws $ 16	  (-) Balance is $6
+ Thread D1 deposits $250						  (+) Balance is $256
+				        Thread W6 withdraws $ 43	  (-) Balance is $213
+				        Thread W9 withdraws $  9	  (-) Balance is $204
+				        Thread W3 withdraws $ 49	  (-) Balance is $155
+				        Thread W1 withdraws $ 22	  (-) Balance is $133
+				        Thread W8 withdraws $ 45	  (-) Balance is $88
+				        Thread W7 withdraws $ 44	  (-) Balance is $44
+ Thread D4 deposits $136						  (+) Balance is $180
+				        Thread W3 withdraws $ 15	  (-) Balance is $165
+				        Thread W5 withdraws $ 27	  (-) Balance is $138
+				        Thread W7 withdraws $ 27	  (-) Balance is $111
+				        Thread W9 withdraws $ 14	  (-) Balance is $97
+				        Thread W2 withdraws $  9	  (-) Balance is $88
+				        Thread W4 withdraws $ 39	  (-) Balance is $49
+				        Thread W6 withdraws $  9	  (-) Balance is $40
+				        Thread W1 withdraws $ 34	  (-) Balance is $6
+				        Thread W8 withdraws $ 26	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 34	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $  5	  (-) Balance is $1
+				        Thread W4 withdraws $  3	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $189						  (+) Balance is $190
+ Thread D3 deposits $ 42						  (+) Balance is $232
+				        Thread W5 withdraws $ 17	  (-) Balance is $215
+				        Thread W6 withdraws $ 34	  (-) Balance is $181
+				        Thread W7 withdraws $ 21	  (-) Balance is $160
+				        Thread W8 withdraws $ 50	  (-) Balance is $110
+				        Thread W2 withdraws $ 14	  (-) Balance is $96
+				        Thread W1 withdraws $ 23	  (-) Balance is $73
+				        Thread W4 withdraws $ 47	  (-) Balance is $26
+				        Thread W9 withdraws $  1	  (-) Balance is $25
+				        Thread W7 withdraws $  2	  (-) Balance is $23
+				        Thread W3 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 10	  (-) Balance is $13
+				        Thread W5 withdraws $ 27	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $  9	  (-) Balance is $4
+				        Thread W7 withdraws $ 21	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $  8	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $214						  (+) Balance is $218
+				        Thread W9 withdraws $  7	  (-) Balance is $211
+ Thread D1 deposits $ 21						  (+) Balance is $232
+				        Thread W8 withdraws $ 46	  (-) Balance is $186
+				        Thread W4 withdraws $ 10	  (-) Balance is $176
+				        Thread W5 withdraws $ 47	  (-) Balance is $129
+				        Thread W6 withdraws $ 31	  (-) Balance is $98
+				        Thread W1 withdraws $ 29	  (-) Balance is $69
+				        Thread W7 withdraws $ 29	  (-) Balance is $40
+				        Thread W3 withdraws $ 11	  (-) Balance is $29
+				        Thread W2 withdraws $ 17	  (-) Balance is $12
+				        Thread W4 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 21	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 29	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $120						  (+) Balance is $132
+ Thread D3 deposits $151						  (+) Balance is $283
+				        Thread W4 withdraws $  1	  (-) Balance is $282
+				        Thread W2 withdraws $ 10	  (-) Balance is $272
+				        Thread W8 withdraws $ 28	  (-) Balance is $244
+				        Thread W3 withdraws $ 17	  (-) Balance is $227
+				        Thread W9 withdraws $ 32	  (-) Balance is $195
+				        Thread W6 withdraws $ 18	  (-) Balance is $177
+				        Thread W7 withdraws $ 22	  (-) Balance is $155
+				        Thread W1 withdraws $ 49	  (-) Balance is $106
+ Thread D5 deposits $ 10						  (+) Balance is $116
+				        Thread W5 withdraws $ 48	  (-) Balance is $68
+				        Thread W8 withdraws $ 35	  (-) Balance is $33
+				        Thread W2 withdraws $ 30	  (-) Balance is $3
+				        Thread W4 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 20	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $ 39						  (+) Balance is $42
+				        Thread W1 withdraws $ 25	  (-) Balance is $17
+				        Thread W8 withdraws $  6	  (-) Balance is $11
+				        Thread W3 withdraws $ 16	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 11	  (-) Balance is $0
+				        Thread W2 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $ 77						  (+) Balance is $77
+ Thread D1 deposits $223						  (+) Balance is $300
+				        Thread W9 withdraws $ 43	  (-) Balance is $257
+				        Thread W2 withdraws $ 11	  (-) Balance is $246
+				        Thread W1 withdraws $ 19	  (-) Balance is $227
+				        Thread W6 withdraws $ 29	  (-) Balance is $198
+				        Thread W3 withdraws $ 32	  (-) Balance is $166
+				        Thread W7 withdraws $ 18	  (-) Balance is $148
+				        Thread W9 withdraws $ 36	  (-) Balance is $112
+				        Thread W4 withdraws $ 42	  (-) Balance is $70
+				        Thread W8 withdraws $ 40	  (-) Balance is $30
+				        Thread W5 withdraws $  3	  (-) Balance is $27
+				        Thread W3 withdraws $ 31	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $ 96						  (+) Balance is $123
+				        Thread W2 withdraws $ 41	  (-) Balance is $82
+				        Thread W6 withdraws $ 46	  (-) Balance is $36
+ Thread D2 deposits $ 44						  (+) Balance is $80
+				        Thread W9 withdraws $ 20	  (-) Balance is $60
+				        Thread W1 withdraws $  7	  (-) Balance is $53
+				        Thread W4 withdraws $ 49	  (-) Balance is $4
+				        Thread W2 withdraws $ 10	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  1	  (-) Balance is $3
+				        Thread W9 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 31	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D3 deposits $ 65						  (+) Balance is $68
+				        Thread W6 withdraws $ 32	  (-) Balance is $36
+				        Thread W1 withdraws $  9	  (-) Balance is $27
+				        Thread W7 withdraws $ 23	  (-) Balance is $4
+				        Thread W9 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 31	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 10	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $177						  (+) Balance is $181
+				        Thread W5 withdraws $  7	  (-) Balance is $174
+				        Thread W9 withdraws $ 32	  (-) Balance is $142
+ Thread D5 deposits $107						  (+) Balance is $249
+				        Thread W1 withdraws $ 28	  (-) Balance is $221
+				        Thread W8 withdraws $ 20	  (-) Balance is $201
+				        Thread W9 withdraws $  9	  (-) Balance is $192
+				        Thread W6 withdraws $ 33	  (-) Balance is $159
+				        Thread W5 withdraws $ 12	  (-) Balance is $147
+				        Thread W7 withdraws $ 41	  (-) Balance is $106
+				        Thread W2 withdraws $ 39	  (-) Balance is $67
+				        Thread W4 withdraws $ 26	  (-) Balance is $41
+ Thread D2 deposits $ 66						  (+) Balance is $107
+				        Thread W3 withdraws $ 16	  (-) Balance is $91
+				        Thread W8 withdraws $ 28	  (-) Balance is $63
+				        Thread W1 withdraws $ 25	  (-) Balance is $38
+				        Thread W2 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $  2	  (-) Balance is $36
+ Thread D1 deposits $116						  (+) Balance is $152
+				        Thread W7 withdraws $ 17	  (-) Balance is $135
+				        Thread W5 withdraws $  8	  (-) Balance is $127
+				        Thread W9 withdraws $ 46	  (-) Balance is $81
+				        Thread W6 withdraws $ 12	  (-) Balance is $69
+ Thread D3 deposits $ 20						  (+) Balance is $89
+				        Thread W8 withdraws $ 47	  (-) Balance is $42
+				        Thread W1 withdraws $ 49	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $  6	  (-) Balance is $36
+				        Thread W3 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 20	  (-) Balance is $16
+				        Thread W7 withdraws $  4	  (-) Balance is $12
+				        Thread W6 withdraws $ 35	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $  4	  (-) Balance is $8
+				        Thread W2 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $ 21						  (+) Balance is $29
+				        Thread W8 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $  7	  (-) Balance is $22
+				        Thread W3 withdraws $  4	  (-) Balance is $18
+ Thread D4 deposits $ 38						  (+) Balance is $56
+				        Thread W6 withdraws $ 37	  (-) Balance is $19
+				        Thread W1 withdraws $  7	  (-) Balance is $12
+				        Thread W2 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $  3						  (+) Balance is $15
+ Thread D1 deposits $214						  (+) Balance is $229
+				        Thread W8 withdraws $ 15	  (-) Balance is $214
+				        Thread W6 withdraws $ 10	  (-) Balance is $204
+				        Thread W7 withdraws $ 28	  (-) Balance is $176
+				        Thread W3 withdraws $ 35	  (-) Balance is $141
+				        Thread W1 withdraws $ 41	  (-) Balance is $100
+				        Thread W8 withdraws $ 27	  (-) Balance is $73
+				        Thread W4 withdraws $ 39	  (-) Balance is $34
+				        Thread W5 withdraws $ 12	  (-) Balance is $22
+				        Thread W7 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 48	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 40	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 13	  (-) Balance is $9
+				        Thread W5 withdraws $ 38	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 21	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $  6	  (-) Balance is $3
+ Thread D3 deposits $155						  (+) Balance is $158
+				        Thread W4 withdraws $ 46	  (-) Balance is $112
+				        Thread W7 withdraws $  7	  (-) Balance is $105
+				        Thread W3 withdraws $ 31	  (-) Balance is $74
+				        Thread W2 withdraws $ 15	  (-) Balance is $59
+				        Thread W9 withdraws $  5	  (-) Balance is $54
+				        Thread W4 withdraws $  7	  (-) Balance is $47
+				        Thread W6 withdraws $ 31	  (-) Balance is $16
+				        Thread W8 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $  8	  (-) Balance is $8
+				        Thread W3 withdraws $  5	  (-) Balance is $3
+				        Thread W2 withdraws $ 37	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 33	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 10	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 47	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $ 54						  (+) Balance is $57
+				        Thread W3 withdraws $  2	  (-) Balance is $55
+				        Thread W6 withdraws $ 40	  (-) Balance is $15
+				        Thread W8 withdraws $  8	  (-) Balance is $7
+				        Thread W7 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $164						  (+) Balance is $171
+				        Thread W4 withdraws $ 33	  (-) Balance is $138
+				        Thread W9 withdraws $ 45	  (-) Balance is $93
+				        Thread W5 withdraws $ 44	  (-) Balance is $49
+				        Thread W2 withdraws $ 48	  (-) Balance is $1
+				        Thread W1 withdraws $ 22	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 26	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $234						  (+) Balance is $235
+				        Thread W6 withdraws $ 28	  (-) Balance is $207
+				        Thread W3 withdraws $  8	  (-) Balance is $199
+				        Thread W9 withdraws $ 38	  (-) Balance is $161
+				        Thread W8 withdraws $ 24	  (-) Balance is $137
+				        Thread W5 withdraws $ 36	  (-) Balance is $101
+				        Thread W6 withdraws $ 13	  (-) Balance is $88
+				        Thread W2 withdraws $ 30	  (-) Balance is $58
+				        Thread W1 withdraws $ 48	  (-) Balance is $10
+				        Thread W4 withdraws $  2	  (-) Balance is $8
+				        Thread W9 withdraws $ 28	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $185						  (+) Balance is $193
+				        Thread W8 withdraws $ 31	  (-) Balance is $162
+				        Thread W4 withdraws $  4	  (-) Balance is $158
+				        Thread W5 withdraws $ 42	  (-) Balance is $116
+				        Thread W6 withdraws $ 20	  (-) Balance is $96
+				        Thread W2 withdraws $ 12	  (-) Balance is $84
+				        Thread W3 withdraws $ 27	  (-) Balance is $57
+				        Thread W1 withdraws $ 26	  (-) Balance is $31
+ Thread D3 deposits $124						  (+) Balance is $155
+				        Thread W8 withdraws $ 18	  (-) Balance is $137
+				        Thread W5 withdraws $ 37	  (-) Balance is $100
+				        Thread W9 withdraws $ 23	  (-) Balance is $77
+				        Thread W7 withdraws $  2	  (-) Balance is $75
+				        Thread W6 withdraws $ 34	  (-) Balance is $41
+				        Thread W1 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $  1	  (-) Balance is $40
+				        Thread W8 withdraws $ 11	  (-) Balance is $29
+				        Thread W7 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 42	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 46	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 27	  (-) Balance is $2
+				        Thread W9 withdraws $ 16	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 39	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D2 deposits $ 85						  (+) Balance is $87
+				        Thread W4 withdraws $ 11	  (-) Balance is $76
+				        Thread W3 withdraws $ 11	  (-) Balance is $65
+				        Thread W8 withdraws $  8	  (-) Balance is $57
+				        Thread W7 withdraws $ 48	  (-) Balance is $9
+				        Thread W9 withdraws $ 14	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D5 deposits $ 93						  (+) Balance is $102
+				        Thread W6 withdraws $ 39	  (-) Balance is $63
+				        Thread W5 withdraws $  5	  (-) Balance is $58
+				        Thread W4 withdraws $ 19	  (-) Balance is $39
+				        Thread W3 withdraws $ 31	  (-) Balance is $8
+				        Thread W1 withdraws $ 41	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 10	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 17	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 34	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $  2	  (-) Balance is $6
+				        Thread W5 withdraws $ 45	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D4 deposits $117						  (+) Balance is $123
+				        Thread W9 withdraws $ 34	  (-) Balance is $89
+				        Thread W2 withdraws $ 48	  (-) Balance is $41
+				        Thread W7 withdraws $  4	  (-) Balance is $37
+				        Thread W3 withdraws $  5	  (-) Balance is $32
+				        Thread W8 withdraws $ 20	  (-) Balance is $12
+				        Thread W4 withdraws $ 27	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W5 withdraws $ 50	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W1 withdraws $ 23	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 19	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $  3	  (-) Balance is $9
+				        Thread W3 withdraws $ 18	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W8 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 11	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W2 withdraws $ 13	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W9 withdraws $ 15	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D1 deposits $132						  (+) Balance is $141
+				        Thread W4 withdraws $  4	  (-) Balance is $137
+				        Thread W6 withdraws $ 38	  (-) Balance is $99
+				        Thread W5 withdraws $ 22	  (-) Balance is $77
+				        Thread W8 withdraws $ 26	  (-) Balance is $51
+				        Thread W1 withdraws $ 29	  (-) Balance is $22
+				        Thread W3 withdraws $ 10	  (-) Balance is $12
+				        Thread W9 withdraws $ 25	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W4 withdraws $ 16	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+ Thread D3 deposits $ 39						  (+) Balance is $51
+ Thread D2 deposits $224						  (+) Balance is $275
+				        Thread W2 withdraws $ 14	  (-) Balance is $261
+				        Thread W7 withdraws $ 17	  (-) Balance is $244
+				        Thread W1 withdraws $  9	  (-) Balance is $235
+				        Thread W5 withdraws $ 39	  (-) Balance is $196
+				        Thread W8 withdraws $ 37	  (-) Balance is $159
+				        Thread W6 withdraws $ 39	  (-) Balance is $120
+				        Thread W9 withdraws $ 18	  (-) Balance is $102
+				        Thread W3 withdraws $ 35	  (-) Balance is $67
+				        Thread W2 withdraws $  9	  (-) Balance is $58
+				        Thread W8 withdraws $ 37	  (-) Balance is $21
+				        Thread W4 withdraws $ 31	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W6 withdraws $ 44	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W7 withdraws $ 43	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
+				        Thread W3 withdraws $ 32	  (******) WITHDRAWAL BLOCKED - INSUFFICIENT FUNDS!!!
